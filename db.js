@@ -1,10 +1,10 @@
 const { Pool } = require('pg');
 
 const pool = new Pool({
-  user: 'panes_de_la_ruminahui_user',
-  host: 'dpg-cu5st3d6l47c73bsl19g-a.oregon-postgres.render.com',
-  database: 'panes_de_la_ruminahui_qnuq',
-  password: 'E3pi10rnAhCfwtCjeLmim1LbXM0ROhmN',
+  user: 'proyecto1_user',
+  host: 'dpg-cus7haq3esus73fk8tbg-a.oregon-postgres.render.com',
+  database: 'proyecto1db',
+  password: 'MvUFh2UjTuCYtivF4eCCKL0Zu7XbCjE6',
   port: 5432,
   ssl: { rejectUnauthorized: false }
 });
