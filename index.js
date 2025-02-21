@@ -7,7 +7,7 @@ app.use(express.json());
 
 /////////// GRADUATED STUDENTS ///////////
 
-//Admission date is required//
+//graduation-date//
 app.get('/graduation-date', async (req, res) => {
   try {
     const { admissionDate, programDuration = 4 } = req.query;
