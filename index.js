@@ -47,7 +47,7 @@ app.get('/graduation-date', async (req, res) => {
 
     res.json({ 
       code: estudiante.code, 
-      fecha_graduacion: fechaGraduacion.toISOString().split('T')[0] 
+      graduation_date: fechaGraduacion.toISOString().split('T')[0] 
     });
 
   } catch (err) {
