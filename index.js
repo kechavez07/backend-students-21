@@ -7,8 +7,10 @@ app.use(express.json());
 
 /////////// GRADUATED STUDENTS ///////////
 
-//  //
 app.get("/studens")
+
+
+//graduation-date//
 
 app.get('/graduation-date', async (req, res) => {
   try {
